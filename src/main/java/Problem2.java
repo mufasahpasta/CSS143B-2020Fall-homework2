@@ -28,6 +28,6 @@ public class Problem2 {
                 totalIndex++;
             }
         }
-        return totalIndex; // place holder
+        return totalIndex;
     }
 }
