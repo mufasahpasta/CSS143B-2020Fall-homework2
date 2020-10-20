@@ -33,7 +33,7 @@ public class BookFiction extends Book {
         {
             return 0;
         }
-        else if(numOfDaysPastDue < 5)
+        else if(numOfDaysPastDue > 0)
         {
             return numOfDaysPastDue * lateFeePerDayInDollar;
         }

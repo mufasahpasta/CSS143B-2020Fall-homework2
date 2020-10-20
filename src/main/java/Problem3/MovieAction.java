@@ -31,7 +31,7 @@ public class MovieAction extends Movie {
         {
             return 0;
         }
-        else if(numOfDaysPastDue < 5)
+        else if(numOfDaysPastDue < 5 && numOfDaysPastDue > 0)
         {
             return numOfDaysPastDue * lateFeePerDayInDollar;
         }

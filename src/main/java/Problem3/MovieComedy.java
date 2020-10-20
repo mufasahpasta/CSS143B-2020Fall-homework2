@@ -28,7 +28,7 @@ public class MovieComedy extends Movie {
         {
             return 0;
         }
-        else if(numOfDaysPastDue < 10)
+        else if(numOfDaysPastDue > 0)
         {
             return numOfDaysPastDue * lateFeePerDayInDollar;
         }
